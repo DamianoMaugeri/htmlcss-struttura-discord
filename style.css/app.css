@@ -26,19 +26,33 @@ img {
     margin: 0 auto;
     padding: 20px;
 }
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
 
 
 /* HEADER FEATURES */
 
 .main-header{
-    min-height: 200px;
+    min-height: 100px;
     background-color: red;
+    di
+    
 }
 
 header .main-nav{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     
+}
+
+.nav-menu{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
 }
 
 
@@ -60,7 +74,9 @@ header .main-nav{
 
 /* UTILITY */
 
-
+.bg_y{
+    background-color: yellow;
+}
 
 
 
@@ -73,6 +89,6 @@ header .main-nav{
     border: 2px dashed black;
 }
 
-.debug.main-header{
-    
+.debug *{
+    border: 2px dashed black;
 }
