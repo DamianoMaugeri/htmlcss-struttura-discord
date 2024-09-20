@@ -21,11 +21,25 @@ img {
 
 /* LAYOUT */
 
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
 
 
+/* HEADER FEATURES */
 
+.main-header{
+    min-height: 200px;
+    background-color: red;
+}
 
-
+header .main-nav{
+    display: flex;
+    justify-content: space-between;
+    
+}
 
 
 
@@ -54,3 +68,11 @@ img {
 
 
 /* DEBUG */
+
+.debug .container{
+    border: 2px dashed black;
+}
+
+.debug.main-header{
+    
+}
