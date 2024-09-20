@@ -1,22 +1,22 @@
 /* RESET */
 * {
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 ul,
 ol {
-	list-style: none;
+    list-style: none;
 }
 
 a {
-	color: currentColor;
-	text-decoration: none;
+    color: currentColor;
+    text-decoration: none;
 }
 
 img {
-	max-width: 100%;
+    max-width: 100%;
 }
 
 /* LAYOUT */
@@ -26,42 +26,43 @@ img {
     margin: 0 auto;
     padding: 0 20px;
 }
-.row{
+
+.row {
     display: flex;
     flex-wrap: wrap;
 }
 
-.layout-1{
+.layout-1 {
     background-color: rgb(24, 24, 165);
 }
 
 
 /* HEADER FEATURES */
 
-.main-header{
+.main-header {
     background-color: lightskyblue;
     padding: 20px;
-    
-    
+
+
 }
 
-header .main-nav{
+header .main-nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+
 }
 
-.nav-menu{
+.nav-menu {
     display: flex;
     gap: 10px;
     align-items: center;
     min-height: 60px;
-    
+
 
 }
 
-.section{
+.section {
     padding: 100px;
 }
 
@@ -72,34 +73,54 @@ header .main-nav{
 
 
 /*FEATURES*/
+main{
+    margin-bottom: 1px;
+}
+
+.col-80 {
+    width: 80%;
+    background-color: rgb(231, 149, 197);
+    margin: auto;
+}
 
 
-.col-100{
+.col-100 {
     width: 100%;
     min-height: 300px;
-    background-color: palevioletred;
+    background-color: green;
 }
 
-.col-66{
+.col-66 {
     width: calc((100% / 3) * 2);
-    background-color: cornflowerblue ;
+    background-color: cornflowerblue;
 }
 
-.col-33{
+.col-33 {
     width: calc(100% / 3);
     background-color: pink;
 }
 
+.col-16 {
+    width: calc(100% / 6);
+    background-color: rgb(139, 236, 236);
+}
 
 
+.layout-5 {
+    background-color: grey;
+}
 
+
+.layout-6 {
+    background-color: black;
+}
 
 
 
 
 /* UTILITY */
 
-.bg_y{
+.bg_y {
     background-color: orange;
 }
 
@@ -111,13 +132,13 @@ header .main-nav{
 /* DEBUG */
 
 
-.debug .row > * {
-	border: 2px solid cornflowerblue;
-	padding: 16px;
+.debug .row>* {
+    border: 2px solid cornflowerblue;
+    padding: 16px;
     min-height: 300px;
 }
 
 
 .debug.layout-3 {
-    background-color: grey ;
+    background-color: grey;
 }
